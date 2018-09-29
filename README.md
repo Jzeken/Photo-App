@@ -1,4 +1,5 @@
 # README
+Re initialize!!
 
 [FOR THE SAKE OF LEARNING RUBY ON RAILS]
 
