@@ -5,9 +5,7 @@ class Image < ApplicationRecord
 
   private
 
-  def picture_size
-    if picture.size > 5.megabytes
-      errors.add(:picture, "Should be less than 5MB")
+    def picture_size
+      errors.add(:picture, "Should be less than 5MB") if picture.size > 5.megabytes
     end
-  end
 end
